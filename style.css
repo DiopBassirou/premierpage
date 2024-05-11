@@ -12,7 +12,7 @@ body{
 }
 @media  (max-width: 70000px){
 header{
-    background: #23354f;
+    background: linear-gradient(#b40bb4,rgba(18, 6, 238, 0.533));
     position: sticky;
     display: flex;
     justify-content: space-between;
@@ -59,6 +59,7 @@ span{
     margin-left: 40px;
     color: aliceblue;
     font-size: 18px;
+    animation: bass 5s ;
 }
 }
 b{
@@ -70,6 +71,7 @@ b{
     margin-left: 40px;
     display: flex;
     gap: 20px;
+    animation: bass 5s ;
 }
 @media  (max-width: 70000px){
 button{
@@ -79,6 +81,8 @@ button{
     border: solid #c71f95;
     border-radius: 30px;
     color: aliceblue;
+    animation: bass 5s ;
+
 }
 }
 @media (min-width: 710px){
@@ -90,6 +94,8 @@ img{
     bottom: 160px;
     border:  5px solid #c71f95;
     width: 100%;
+    animation: bass;
+    animation: bass 5s ;
 }
 }
 @media (max-width: 710px){
@@ -101,5 +107,20 @@ img{
     top: 30px;
     border:  5px solid #c71f95;
     width: 100%;
+    animation: bass 5s ;
+   
 }
+}
+@keyframes bass {
+    0%{
+        transform: scale(0.70);
+    }
+    100%{
+        transform: scale(1);
+    }
+    
+}
+.cont{
+    animation: bass 5s ;
+
 }
