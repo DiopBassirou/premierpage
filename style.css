@@ -1,0 +1,105 @@
+@media  (max-width: 70000px){
+    *{
+    margin: 0;
+    padding: 0;
+}
+}
+@media (max-width: 70000px){
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #5b89ce;
+}
+}
+@media  (max-width: 70000px){
+header{
+    background: #23354f;
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+}
+header a{
+    text-decoration: none;
+    color: aliceblue;
+}
+span{
+    color: rgb(222, 21, 222);
+}
+@media  (max-width: 70000px){
+    
+    .navbar {
+        padding: 12px 90px;
+        display: inline-block;
+    }
+}
+@media (min-width: 701px)
+{
+.navbar a {
+    text-decoration: none;
+    color: aliceblue;
+    margin-left: 20px;
+}
+}
+@media (max-width: 700px)
+{
+.navbar a {
+    text-decoration: none;
+    color: aliceblue;
+    margin-left: 20px;
+    display: flex;
+}
+}
+.navbar a:hover{
+    color: rgb(232, 25, 225);
+}
+@media (max-width: 70000px){
+ .salutation{
+    margin-top: 10%;
+    margin-left: 40px;
+    color: aliceblue;
+    font-size: 18px;
+}
+}
+b{
+    color: rgb(129, 41, 119);
+}
+
+.icone{
+    padding: 5px;
+    margin-left: 40px;
+    display: flex;
+    gap: 20px;
+}
+@media  (max-width: 70000px){
+button{
+    margin: 10px 0 0 40px;
+    background: #5b89ce;
+    padding: 10px;
+    border: solid #c71f95;
+    border-radius: 30px;
+    color: aliceblue;
+}
+}
+@media (min-width: 710px){
+img{
+    position: relative;
+    max-width: 200px;
+    border-radius: 80%;
+    left: 40%;
+    bottom: 160px;
+    border:  5px solid #c71f95;
+    width: 100%;
+}
+}
+@media (max-width: 710px){
+img{
+    position: relative;
+    max-width: 200px;
+    border-radius: 80%;
+    left: 10%;
+    top: 30px;
+    border:  5px solid #c71f95;
+    width: 100%;
+}
+}
