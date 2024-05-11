@@ -120,7 +120,8 @@ img{
     }
     
 }
-.cont{
+.bodycontact{
     animation: bass 5s ;
-
+    display: block;
+    padding: 10px;
 }
