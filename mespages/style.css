@@ -74,16 +74,19 @@ b{
     animation: bass 5s ;
 }
 @media  (max-width: 70000px){
-button{
-    margin: 10px 0 0 40px;
+button {
+    margin: 10px 0px 0px 40px;
     background: #5b89ce;
     padding: 10px;
     border: solid #c71f95;
     border-radius: 30px;
-    color: aliceblue;
     animation: bass 5s ;
-
+    text-decoration: none;
 }
+}
+button a{
+    color: aliceblue;
+    text-decoration: none;
 }
 @media (min-width: 710px){
 img{
