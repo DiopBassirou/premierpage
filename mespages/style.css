@@ -38,7 +38,7 @@ span{
 .navbar a {
     text-decoration: none;
     color: aliceblue;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 }
 @media (max-width: 700px)
